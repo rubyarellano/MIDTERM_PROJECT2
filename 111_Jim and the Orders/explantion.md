@@ -1,0 +1,1 @@
+I calculated the total delivery time for each order by adding the order time and the preparation time. Then I stored each delivery time along with the customer’s original index. I sorted these pairs first by delivery time and then by index in case of ties. Finally, I extracted the customer indices in the new order and returned them.

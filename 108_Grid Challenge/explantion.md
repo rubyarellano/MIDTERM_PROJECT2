@@ -1,0 +1,1 @@
+I first sorted each row of the grid alphabetically. Then I checked each column from top to bottom to ensure the letters were in non-decreasing order. If any column had a letter smaller than the one above it, I returned `"NO"`. If all columns were sorted correctly, I returned `"YES"`.

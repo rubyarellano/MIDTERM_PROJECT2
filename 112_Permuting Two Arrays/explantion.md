@@ -1,0 +1,1 @@
+I first sorted array A in ascending order and array B in descending order. Then I paired the smallest elements of A with the largest elements of B. For each pair, I checked if their sum was at least k. If any pair’s sum was less than k, I returned `"NO"`; otherwise, I returned `"YES"`.

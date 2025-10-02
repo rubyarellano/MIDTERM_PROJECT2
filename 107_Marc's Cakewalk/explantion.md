@@ -1,0 +1,1 @@
+I first sorted the calorie array in descending order so the highest calorie cupcakes come first. Then I initialized a variable to track the total miles. I looped through the sorted array, multiplying each calorie by 2 to the power of its index and added it to the total. Finally, I returned the total miles Marc has to walk.

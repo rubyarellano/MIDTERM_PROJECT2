@@ -1,0 +1,1 @@
+I first checked if n is 0, in which case the answer is 1. Then I counted the number of 0 bits in the binary representation of n. Finally, I returned (2^{\text{count of zero bits}}), because each zero bit can either stay 0 or be flipped to contribute to the XOR equaling n.

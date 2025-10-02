@@ -1,0 +1,1 @@
+I first sorted the toy prices in ascending order so I could buy cheaper toys first. Then I initialized a total money counter and a count of toys bought. I looped through the sorted prices, adding each price to the total as long as it didn’t exceed k, and increased the toy count. Once adding another toy would exceed k, I stopped and returned the total count of toys bought.

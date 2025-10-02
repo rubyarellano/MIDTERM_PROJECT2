@@ -1,0 +1,1 @@
+I first sorted the stick lengths in ascending order. Then I started from the largest stick and checked each triplet to see if they could form a non-degenerate triangle (the sum of the two smaller sides must be greater than the largest side). As soon as I found a valid triangle, I returned the three side lengths. If no such triangle existed, I returned `[-1]`.
